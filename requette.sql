@@ -20,8 +20,14 @@ DELETE FROM `film` WHERE `film`.`id` = 35 » ?
 
 --6)
 
+
 --7)
 SELECT * FROM film WHERE id=51;
 
 --8)
 SELECT AVG(note) FROM commentaire
+
+--9)
+SELECT * FROM film WHERE MONTH (date_sortie) = 6;
+
+--10)
